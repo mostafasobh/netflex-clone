@@ -1,0 +1,19 @@
+.navBtnContainer{
+    margin: 10px 15px;
+    padding-bottom: 5px;
+}
+
+svg:hover{
+    cursor: pointer;
+}
+svg:hover path{
+    fill:white;
+    transition: all .5s;
+    transform: translateY(10px);
+    /* transform: translateX(10px); */
+}
+@media(max-width:500px){
+    .iconBar{
+        justify-content: space-between;
+    }
+}

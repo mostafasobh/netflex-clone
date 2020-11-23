@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App{
+  /* margin-top: 100px; */
+  height: 100vh;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: contain;
+}
+body{
+  background-color: rgb(48, 47, 48);
+}
+.headlineShow{
+  width: 100%;
+}
+.headlineShowContent{
+  padding-top: 200px;
+  margin-left: 10%;
+  width: 50%;
+}
+.headlineShowContent p{
+  padding: 13px 0;
+  font-size: 14px;
+}
+.headlineShowContent button{
+  margin: 10px 12px;
+  border-radius: 20px;
+}
+.mobile-text-control{
+  overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    line-height: 1.2;
+}

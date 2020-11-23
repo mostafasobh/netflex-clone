@@ -1,0 +1,16 @@
+.navBtn{
+    background-color: transparent;
+    outline: none;
+    padding: 8px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: white;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.navBtn:hover{
+    border-radius: 10px;
+    background-color:#e73f3f;
+    transition: background-color .3s;
+}
